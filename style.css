@@ -9,19 +9,12 @@ body {
   max-width: 100%;
 }
 
-h1,
-h2,
-h3 {
-  text-align: center;
-  margin: auto 0;
-}
-
 h1 {
-  font-size: 96px;
+  font-size: 60px;
 }
 
 h2 {
-  font-size: 70px;
+  font-size: 60px;
 }
 
 h3 {
@@ -37,9 +30,14 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-  
 }
-
+@media (max-width: 900px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 18px;
+  }
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
